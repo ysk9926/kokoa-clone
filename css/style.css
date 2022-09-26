@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 @import "reset.css";
-@import "status-bar.css";
 @import "variables.css";
+/*components*/
+@import "components/status-bar.css";
+@import "components/nav.css";
+@import "components/screen-header.css";
+/*screen*/
+@import "screen/login.css";
 @font-face {
     font-family: 'Framework7 Icons';
     font-style: normal;
@@ -10,13 +15,14 @@
       url('../fonts/Framework7Icons-Regular.woff2') format('woff2'), url('../fonts/Framework7Icons-Regular.woff')
         format('woff'), url('../fonts/Framework7Icons-Regular.ttf') format('truetype');
   }
-  
+
   .f7-icons,
   .framework7-icons {
     font-family: 'Framework7 Icons';
     font-weight: normal;
     font-style: normal;
     font-size: 28px;
+    font-size: 30px;
     line-height: 1;
     letter-spacing: normal;
     text-transform: none;
@@ -32,64 +38,13 @@
     -moz-font-feature-settings: 'liga';
     font-feature-settings: 'liga';
   }
-
+  .size-28 {
+    font-size: 28px;
+  }
+  .size-30 {
+    font-size: 30px;
+  }
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.welcome-header{
-  margin: 90px 0px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-}
-.welcome-header__title{
-  margin-bottom: 40px;
-  font-size: 25px;
-}
-
-.welcome-header__text{
-width: 60%;
-opacity: 0.7;
-}
-
-.login-form{
-  display: flex;
-  flex-direction: column;
-  margin: 0px 30px;
-}
-
-.login-form input{
-  padding:  13px 0px;
-  border: none;
-  font-size: 18px;
-  margin-bottom: 25px;
-}
-.login-form input::placeholder{
-  color: rgba(0, 0, 0, 0.4);
-}
-
-.login-form input:not([type="submit"]){
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  transition: border-color 0.3s ease-in-out;
-  
-}
-.login-form input:focus{
-border-color: var(--yello);
-}
-
-.login-form input[type="submit"]{
-  background-color: var(--yello);
-  cursor: pointer;
-  padding: 20px 0px;
-  border-radius: 5px;
-}
-
-.login-form a{
-  text-align: center;
-  text-decoration: none;
-  color: inherit;
-  font-size: 13px;
-}

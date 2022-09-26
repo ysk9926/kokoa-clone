@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <link rel="stylesheet" href="css/style.css"/>
     <meta charset="UTF-8">
@@ -16,7 +16,7 @@
     <div class="status-bar__columm">
             <i class="fa-solid fa-wifi"></i>
             <span>25%</span>
-            <i class="f7-icons">battery_25</i>
+            <img src="battery.png" width="15px" height="15px">
     </div>
     </div>
 
@@ -27,16 +27,13 @@
         </p>
     </header>
 
-    <form class="login-form">
-        <input type="text" placeholder="Email or phone number"/>
-        <input type="password" placeholder="password"/>
-        <input type="submit" value="Log In"/>
-        <a href="'#">Find kokoa Account or password</a>
+    <form action="friends.html" method="get" class="login-form">
+        <input name="username" type="text" placeholder="Email or phone number" class="login-form__input"/>
+        <input name="password" type="password" placeholder="password" class="login-form__input"/>
+        <input type="submit" value="Log In" class="login-form__btn"/>
+        <a href="'#" class="login-form__a" >Find kokoa Account or password</a>
     </form>
-
-    <script 
-    src="https://kit.fontawesome.com/35a4963bdd.js" 
-    crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/35a4963bdd.js"
+     crossorigin="anonymous"></script>
 </body>
 </html>
