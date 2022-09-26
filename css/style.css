@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "variables.css";
 @font-face {
     font-family: 'Framework7 Icons';
     font-style: normal;
@@ -28,19 +32,64 @@
     -moz-font-feature-settings: 'liga';
     font-feature-settings: 'liga';
   }
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.status-bar{
-    display: flex;
-    justify-content: space-between;
+.welcome-header{
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
-.status-bar__columm:last-child{
-    display: flex;
-align-items: center;
+.welcome-header__title{
+  margin-bottom: 40px;
+  font-size: 25px;
 }
-.status-bar__columm:last-child span{
-    margin: 0px 5px;
+
+.welcome-header__text{
+width: 60%;
+opacity: 0.7;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+.login-form input{
+  padding:  13px 0px;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.login-form input::placeholder{
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.login-form input:not([type="submit"]){
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+  
+}
+.login-form input:focus{
+border-color: var(--yello);
+}
+
+.login-form input[type="submit"]{
+  background-color: var(--yello);
+  cursor: pointer;
+  padding: 20px 0px;
+  border-radius: 5px;
+}
+
+.login-form a{
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
 }

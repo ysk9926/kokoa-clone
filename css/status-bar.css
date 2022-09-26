@@ -1,0 +1,12 @@
+.status-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 3px;
+}
+.status-bar__columm:last-child{
+    display: flex;
+align-items: center;
+}
+.status-bar__columm:last-child span{
+    margin: 0px 5px;
+}
