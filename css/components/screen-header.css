@@ -2,4 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 5px;
+}
+.header__text{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 15px 15px ;
+}
+.header__icon{
+    margin: 15px 10px;
+    align-items: center;
 }

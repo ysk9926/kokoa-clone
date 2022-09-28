@@ -5,8 +5,10 @@
 @import "components/status-bar.css";
 @import "components/nav.css";
 @import "components/screen-header.css";
+@import "components/user-components.css";
 /*screen*/
 @import "screen/login.css";
+@import "screen/friends.css";
 @font-face {
     font-family: 'Framework7 Icons';
     font-style: normal;
@@ -38,9 +40,10 @@
     -moz-font-feature-settings: 'liga';
     font-feature-settings: 'liga';
   }
-  .size-28 {
-    font-size: 28px;
+  .size-26 {
+    font-size: 22px;
   }
+
   .size-30 {
     font-size: 30px;
   }

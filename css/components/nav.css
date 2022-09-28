@@ -17,18 +17,18 @@
 }
 .nav__notification{
     background-color: red;
-    font-size: 5px;
+    font-size: 12px;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 27px;
     border-radius: 10px;
     position: absolute;
     font-weight: 600;
     left: 15px;
-    bottom: 15px;
+    bottom: 17px;
 }
 
 .nav__dot{

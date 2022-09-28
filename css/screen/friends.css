@@ -1,0 +1,121 @@
+.screen-link{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+    margin: 0px 15px;
+    margin-top: 10px;
+    padding: 25px;
+}
+.screen-link__text{
+   padding-right: 55px;
+}
+.screen__text1{
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.screen__text2{
+    font-size: 15px;
+}
+.screen-link i{
+    padding-left: 10px;
+}
+.friends-screen{
+    margin: 0px 15px;
+    color: rgba(0, 0, 0, 0.3);
+}
+.friends-screen__multy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.friends-screen__multy-title{
+    font-size: 15px;
+
+}
+.friends-screen__icon{
+    padding-right: 5px;
+}
+.friends-screen__multy-user{
+    display: flex;
+}
+.friends-screen__multy-user_profile{
+    margin-right: 15px;
+    text-align: center;
+    
+}
+.friends-screen__multy-user__text{
+    margin-top: 8px;
+    font-size: 13px;
+    color: black;
+}
+.friends-screen__birth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.friends-screen__birth-user{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.friends-screen__birth-user__left{
+    display: flex;
+    align-items: center;
+}
+.friends-screen__birth-user__title{
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+}
+.gift-icon{
+    color: tomato;
+}
+.friends-screen__birth-user__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid tomato;
+    border-radius: 15px;
+    width: 90px;
+    height: 28px;
+    margin-right: 10px;
+}
+.friends-screen__birth-user__right-title{
+    color: black;
+    padding-left: 10PX;
+    font-size: 13px;
+}
+.friends-screen__birth-find{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.friends-screen__birth-find__left{
+    display: flex;
+    align-items: center;
+}
+.friends-screen__birth-find__title{
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+}
+.friends-screen__birth-find__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.friends-screen__birth-find__right-title{
+    padding-left: 10PX;
+    font-size: 15px;
+}

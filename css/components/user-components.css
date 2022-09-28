@@ -1,0 +1,29 @@
+
+.user-components__avator{
+    width: 70px;
+    height: 70px;
+    border-radius: 28px;
+}
+.user-components__avator-sm{
+    width: 55px;
+    height: 55px;
+    border-radius: 24px;
+}
+.user-components__column{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.user-components__text{
+    margin-left: 15px;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+.friends-screen__birth-user{
+    display: flex;
+    align-items: center;
+}
+.friends-screen__birth-user__title{
+    margin-left: 15px;
+}
