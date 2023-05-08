@@ -12,6 +12,8 @@
 @import "screen/friends.css";
 @import "screen/chat.css";
 @import "screen/chat-page.css";
+@import "screen/setting.css";
+
 @font-face {
   font-family: "Framework7 Icons";
   font-style: normal;

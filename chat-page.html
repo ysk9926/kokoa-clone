@@ -20,97 +20,131 @@
         <img src="battery.png" width="15px" height="15px" />
       </div>
     </div>
-    <!-- 헤더 -->
-    <div class="chat-page_header">
-      <div class="chat-page_header_col">
-        <a href="chat.html">
+    <div class="chat-page_wrapper">
+      <!-- 헤더 -->
+      <div class="chat-page_header">
+        <div class="chat-page_header_col">
+          <a href="chat.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="chat-page_header_icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
+              />
+            </svg>
+          </a>
+          <div class="chat_page_header_username">알수없음</div>
+        </div>
+        <div class="chat-page_header_col">
+          <div class="chat-page_header_icon_wrapper">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="chat-page_header_icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                />
+              </svg>
+            </div>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="chat-page_header_icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M7.875 14.25l1.214 1.942a2.25 2.25 0 001.908 1.058h2.006c.776 0 1.497-.4 1.908-1.058l1.214-1.942M2.41 9h4.636a2.25 2.25 0 011.872 1.002l.164.246a2.25 2.25 0 001.872 1.002h2.092a2.25 2.25 0 001.872-1.002l.164-.246A2.25 2.25 0 0116.954 9h4.636M2.41 9a2.25 2.25 0 00-.16.832V12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 12V9.832c0-.287-.055-.57-.16-.832M2.41 9a2.25 2.25 0 01.382-.632l3.285-3.832a2.25 2.25 0 011.708-.786h8.43c.657 0 1.281.287 1.709.786l3.284 3.832c.163.19.291.404.382.632M4.5 20.25h15A2.25 2.25 0 0021.75 18v-2.625c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125V18a2.25 2.25 0 002.25 2.25z"
+                />
+              </svg>
+            </div>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="chat-page_header_icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 채팅 내용 -->
+      <div class="chat-page_contents">
+        <div class="chat-page_contents_wrapper">
+          <div class="chat-page_contents_send">
+            <div class="chat_box_send">안녕하세요</div>
+          </div>
+          <div class="chat-page_contents_receive">
+            <div class="chat_box_receive">이용할 수 없습니다</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 입력창 -->
+      <div class="chat-page_writing">
+        <div class="chat-page_writing_plus">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="chat-page_header_icon"
+            class="chat-page_writing_plus_icon"
           >
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
-              d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
+              d="M12 4.5v15m7.5-7.5h-15"
             />
           </svg>
-        </a>
-        <div class="chat_page_header_username">알수없음</div>
-      </div>
-      <div class="chat-page_header_col">
-        <div class="chat-page_header_icon_wrapper">
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="chat-page_header_icon"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
-              />
-            </svg>
-          </div>
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="chat-page_header_icon"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M7.875 14.25l1.214 1.942a2.25 2.25 0 001.908 1.058h2.006c.776 0 1.497-.4 1.908-1.058l1.214-1.942M2.41 9h4.636a2.25 2.25 0 011.872 1.002l.164.246a2.25 2.25 0 001.872 1.002h2.092a2.25 2.25 0 001.872-1.002l.164-.246A2.25 2.25 0 0116.954 9h4.636M2.41 9a2.25 2.25 0 00-.16.832V12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 12V9.832c0-.287-.055-.57-.16-.832M2.41 9a2.25 2.25 0 01.382-.632l3.285-3.832a2.25 2.25 0 011.708-.786h8.43c.657 0 1.281.287 1.709.786l3.284 3.832c.163.19.291.404.382.632M4.5 20.25h15A2.25 2.25 0 0021.75 18v-2.625c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125V18a2.25 2.25 0 002.25 2.25z"
-              />
-            </svg>
-          </div>
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="chat-page_header_icon"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-              />
-            </svg>
-          </div>
         </div>
-      </div>
-    </div>
-    <!-- 채팅 내용 -->
-    <div class="chat-page_contents">
-      <div class="chat-page_contents_wrapper">
-        <div class="chat-page_contents_send">
-          <div class="chat_box_send">안녕하세요</div>
-        </div>
-        <div class="chat-page_contents_receive">
-          <div class="chat_box_receive">이용할 수 없습니다</div>
-        </div>
-      </div>
-    </div>
 
-    <!-- 입력창 -->
-    <div class="chat-page_writing">
-      <div class="chat-page_writing_plus"></div>
-      <div class="chat-page_writing_input"></div>
-      <div class="chat-page_writing_send"></div>
+        <input type="text" class="chat-page_writing_input" />
+
+        <div class="chat-page_writing_send">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="chat-page_writing_send_icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"
+            />
+          </svg>
+        </div>
+      </div>
     </div>
   </body>
 </html>
