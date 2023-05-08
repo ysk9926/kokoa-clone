@@ -1,0 +1,23 @@
+.chat__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 20px;
+  margin-top: 10px;
+}
+
+.chat__header_title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.chat__header_icon_wrapper {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat__header_icon {
+  width: 25px;
+}

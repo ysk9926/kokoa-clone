@@ -1,161 +1,443 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="css/style.css"/>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Well to kokoatalk</title>
-</head>
-<body>
-     <div class="status-bar">
-        <div class="status-bar__columm">
-         <span>6:43</span>
-            <i class="fa-sharp fa-solid fa-person-walking"></i>
-        </div>
-        <div class="status-bar__columm">
-             <i class="fa-solid fa-wifi"></i>
-            <span>25%</span>
-                <img src="battery.png" width="15px" height="15px">
-        </div>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__columm">
+        <span>6:43</span>
+        <i class="fa-sharp fa-solid fa-person-walking"></i>
+      </div>
+      <div class="status-bar__columm">
+        <i class="fa-solid fa-wifi"></i>
+        <span>25%</span>
+        <img src="battery.png" width="15px" height="15px" />
+      </div>
     </div>
-    <header class="screen-header">
-        <h1 class="header__text">친구</h1>
-        <div>
-            <span class="header__icon"><i class="f7-icons">search</i></span>
-            <span class="header__icon"><i class="f7-icons">person_badge_plus</i></span>
-            <span class="header__icon"><i class="f7-icons">music_note_2</i></span>
-            <span class="header__icon"><i class="f7-icons">gear_alt</i></span>
+    <div class="screen-header">
+      <h1 class="header__text">친구</h1>
+      <div class="header__icon_wrapper">
+        <div class="header__icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+            />
+          </svg>
         </div>
-    </header>
+        <div class="header__icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M19 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zM4 19.235v-.11a6.375 6.375 0 0112.75 0v.109A12.318 12.318 0 0110.374 21c-2.331 0-4.512-.645-6.374-1.766z"
+            />
+          </svg>
+        </div>
+        <div class="header__icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 01-.99-3.467l2.31-.66A2.25 2.25 0 009 15.553z"
+            />
+          </svg>
+        </div>
+        <div class="header__icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"
+            />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
 
     <a class="screen-link" href="#">
-        <div class="screen-link__text">
-            <div class="screen__text1">바스락 재질 가을 아노락 자켓</div>
-            <div class="screen__text2">[알본골프]20% 단독 혜택 & 10% 적립</div>
-        </div>
-        <i class="f7-icons">person_crop_rectangle</i>
-        
+      <div class="screen-link__text">
+        <div class="screen__text1">바스락 재질 가을 아노락 자켓</div>
+        <div class="screen__text2">[알본골프]20% 단독 혜택 & 10% 적립</div>
+      </div>
+      <div class="screen-link_icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+          />
+        </svg>
+      </div>
     </a>
 
     <main class="friends-screen">
-        <div class="user-components__column">
-            <img src="file:///C:/Users/ysk99/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/img/avtor_1.jpg" class="user-components__avator"/>
-            <div class="user-components__text">
-                <h4 class="user-components__title">윤승규</h4>
-            </div>
+      <div class="user-components__column">
+        <img
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0HDg0NBxINDg0PDQ4OEA0RDhsNDQ4NFREXFxURFRMYHCggGB0lHRUTITEhJSkrLi4uFx8zODMtNygtLjcBCgoKDg0OFQ8PFS0ZFRkrKy0tKy0rKzcrLSstKystNy0rLSstNy0rNzcrLTcrKy0rKy0rKysrKysrKysrKysrK//AABEIAOEA4QMBEQACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAAAQQFAwIG/8QAMhABAAECAwUHAwQCAwAAAAAAAAECAxETUgRRkZLRFCExMkFxgQUSoSJhscFigiMzQv/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EAB0RAQEBAQEBAQADAAAAAAAAAAABERICITEDE1H/2gAMAwEAAhEDEQA/APoMi3ot8kdH1+I8m0yLei3yR0OIbTIt6LfJHQ4h9Mi3ot8kdDiG0yLei3yR0OIbTIt6LfJHQ4h9Mi3ot8kdDiG0yLei3yR0OIbTIt6LfJHQ4h9Mi3ot8kdDiG0yLei3yR0OIbTIt6LfJHQ4htMi3ot8kdDiG0yLei3yR0OIbTIt6LfJHQ4htMi3ot8kdDiH0yLei3yR0OIbTIt6LfJHQ4htMi3ot8kdDiH0yLei3yR0OIbTIt6LfJHQ4htMi3ot8kdDiH0yLei3yR0OIbTIt6LfJHQ4htMi3ot8kdDiH0yLei3yR0OIbTIt6LfJHQ4htMi3ot8kdDiG0yLei3yR0OIfXRpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEmqgQAAAAAAAAAAAAAAAAAAAAAAAABX2jbKLPd5qt0enu1PFqap1fULk+X7Y+MW54TUU/ULkeP2z8YLfCat2NupuYRV+mf38OLnfFjWraKhAAAAAAAAAAAAAAAAAAAAAABU2/acqPto80+u6G/PlLWW7MoAAEaP0/aZn/juf6z/Tl68Y3KvuagAAAAAAAAAAAAAAAAAAAAAMO/XmV1VT6zPB6JMjDmoAAA9U1TRMTHjE4pfwbtFX3xE74iXnzG4kAAAAAAAAAAAAAAAAAAAACVn6Pn3ocwUAAAQbmzd1FGOmHC/rUdEUAAAAAAAAAAAAAAAAAAAABi7Zayq6o9JnGPaXfzfjFcWgAAB7s282qKY9Z/CX5CN2IwiIj07nn1sAAAAAAAAAAAAAAAAAAAAABw2vZ42iN1UeEtebiWMiuibc4VxhLtLrLyoAmKZqmIp75n0TcRrbFsuRGNfmn8RucfXrW5FllQAAAAAAAAAAAAAAAAAAAAAAHi7apuxhciJNs/BVq+nUz5ZmPy6T+Ss2FP02n/ANVTPxgf2UxZtWKLP/XGH7+M8WLbWsdEAAAAAAAAAAAAAAAAAAAAAAEgiZinxwj37gcatqt0+NUfHe1zTXidutR6zwOPSaRt1rfPA4pr3Ttdqrwqj57jmmutNUVeWYn272VSAAAAAAAAAAAAAAAAAAAADzduU2oxrnCP5WTTWdf+oVVd1r9Mb/GXSeP9ZtU6qpr76pmffvbyMoUBQ0ATTM0+Xu9u5MgtWdvro8/6o/PFm+Ia0bN+m9GNHzHrDlfONS66IoAAAAAAAAAAAAAAAADzcri3E1VeEEmjGv36r841fEekQ9HnzjFrkoAAAAAAA92rk2piqjxSzRtWL0X6Yqp+Y3S4WZW9e0AAAAAAAAAAAAAAAAGf9UueWiPef6dPEZrPdagAAAAAAAAC59NufZX9s+FX8ufufCNRybAAAAAAAAAAAAAAASKxduq+65V7xH4d/M+Odrg0gGgaBoGgaBoGgaA92avtqpn/ACj+U9fit5524gAAAAAAAAAAAAAAAFevYrdczNWOM/u11UxHYLW6eJ3TDsFrdPE7ph2C1unid0w7Ba3TxO6Ydgtbp4ndMOwWt08TumHYLW6eJ3TDsFrdPE7ph2C1unid0w7Ba3TxO6YRsNuPCJ4nVMWWYoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiCwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//Z"
+          class="user-components__avator"
+        />
+        <div class="user-components__text">
+          <h4 class="user-components__title">윤승규</h4>
         </div>
-        <div class="friends-screen__multy">
-                <div>
-                    <span class="friends-screen__title">내 멀티프로필</span>
-                    <span class="friends-screen__title friends-screen__title-num">1</span>
-                </div>
-                <i class="f7-icons size-26 friends-screen__icon">chevron_up</i></li>
+      </div>
+      <div class="friends-screen__multy">
+        <div>
+          <span class="friends-screen__title">내 멀티프로필</span>
+          <span class="friends-screen__title friends-screen__title-num">1</span>
         </div>
-        <div class="friends-screen__multy-user">
-            <div class="friends-screen__multy-user_profile">
-                <img src="file:///C:/Users/ysk99/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/img/avtor_1.jpg" 
-                class="user-components__avator user-components__avator-sm"/>
-                <div class="friends-screen__multy-user__text">윤승규</div>
-            </div>
-            <div class="friends-screen__multy-user_profile">
-                <img src="file:///C:/Users/ysk99/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/img/avtor_1.jpg" 
-                class="user-components__avator user-components__avator-sm"/>
-                <div class="friends-screen__multy-user__text">윤승규</div>
-            </div>
+        <div class="chevron_icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="chevron_icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+            />
+          </svg>
         </div>
-        <div class="friends-screen__birth">
-            <span class="friends-screen__title">생일인 친구</span>
-            <i class="f7-icons size-26 friends-screen__icon">chevron_up</i></li>
+      </div>
+      <div class="friends-screen__multy-user">
+        <div class="friends-screen__multy-user_profile">
+          <img
+            src="data:image/jpeg;base64,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"
+            class="user-components__avator user-components__avator-sm"
+          />
+          <div class="friends-screen__multy-user__text">윤승규</div>
         </div>
-        <div class="friends-screen__birth-user">
-            <div class="friends-screen__birth-user__left">
-            <img src="file:///C:/Users/ysk99/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/img/avtor_1.jpg" 
-                class="user-components__avator user-components__avator-sm"/>
-                <span class="friends-screen__birth-user__title">김지홍(상지18)</span>
-                <i class="f7-icons size-26 friends-screen__icon gift-icon">gift</i></li>
-            </div>
-            <div class="friends-screen__birth-user__right">
-                <span class="friends-screen__birth-user__right-title">선물하기</span>
-                <i class="f7-icons size-26 friends-screen__icon gift-icon">gift</i>
-            </div>
+        <div class="friends-screen__multy-user_profile">
+          <img
+            src="data:image/jpeg;base64,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"
+            class="user-components__avator user-components__avator-sm"
+          />
+          <div class="friends-screen__multy-user__text">윤승규</div>
         </div>
-        <div class="friends-screen__birth-find">
-            <div class="friends-screen__birth-find__left">
-            <img src="file:///C:/Users/ysk99/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/img/avtor_1.jpg" 
-                class="user-components__avator user-components__avator-sm"/>
-                <span class="friends-screen__birth-user__title">친구의 생일을 확인해보세요!</span>
-            </div>
-            <div class="friends-screen__birth-find__right">
-                <span class="friends-screen__birth-find__right-title">5</span>
-                <i class="f7-icons size-26 friends-screen__icon">chevron_right</i>
-            </div>
+      </div>
+      <div class="friends-screen__birth">
+        <span class="friends-screen__title">생일인 친구</span>
+        <div class="chevron_icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="chevron_icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+            />
+          </svg>
         </div>
-        <div class="friends-screen__update">
-            <div>
-                <span class="friends-screen__title">업데이트한 친구</span>
-                <span class="friends-screen__title friends-screen_title-num">19</span>
-            </div>
-            <i class="f7-icons size-26 friends-screen__icon">chevron_up</i></li>
+      </div>
+      <div class="friends-screen__birth-user">
+        <div class="friends-screen__birth-user__left">
+          <img
+            src="data:image/jpeg;base64,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"
+            class="user-components__avator user-components__avator-sm"
+          />
+          <span class="friends-screen__birth-user__title">김지홍(상지18)</span>
+          <div class="friends-screen__birth_icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="friends-screen__birth_icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"
+              />
+            </svg>
+          </div>
         </div>
-        <div class="friends-screen__update-user">
-            <div class="friends-screen__update-user__profile">
-                <img src="file:///C:/Users/ysk99/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/img/avtor_1.jpg" 
-                class="user-components__avator user-components__avator-sm"/>
-                <div class="friends-screen__multy-user__text">윤승규</div>
-                <span class="friends-screen__update-user__profile__dot"></span>
-            </div>
-            <div class="friends-screen__update-user__profile">
-                <img src="file:///C:/Users/ysk99/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/img/avtor_1.jpg" 
-                class="user-components__avator user-components__avator-sm"/>
-                <div class="friends-screen__multy-user__text">윤승규</div>
-                <span class="friends-screen__update-user__profile__dot"></span>
-            </div>
-            <div class="friends-screen__update-user__profile">
-                <img src="file:///C:/Users/ysk99/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/img/avtor_1.jpg" 
-                class="user-components__avator user-components__avator-sm"/>
-                <div class="friends-screen__multy-user__text">윤승규</div>
-                <span class="friends-screen__update-user__profile__dot"></span>
-            </div>
-            <div class="friends-screen__update-user__profile">
-                <img src="file:///C:/Users/ysk99/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/img/avtor_1.jpg" 
-                class="user-components__avator user-components__avator-sm"/>
-                <div class="friends-screen__multy-user__text">윤승규</div>
-                <span class="friends-screen__update-user__profile__dot"></span>
-            </div>
-            <div class="friends-screen__update-user__profile">
-                <img src="file:///C:/Users/ysk99/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/img/avtor_1.jpg" 
-                class="user-components__avator user-components__avator-sm"/>
-                <div class="friends-screen__multy-user__text">윤승규</div>
-                <span class="friends-screen__update-user__profile__dot"></span>
-            </div>
-            <div class="friends-screen__update-user__profile">
-                <img src="file:///C:/Users/ysk99/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/img/avtor_1.jpg" 
-                class="user-components__avator user-components__avator-sm"/>
-                <div class="friends-screen__multy-user__text">윤승규</div>
-                <span class="friends-screen__update-user__profile__dot"></span>
-            </div>
+        <div class="friends-screen__birth-user__right">
+          <span class="friends-screen__birth-user__right-title">선물하기</span>
+          <div class="friends-screen__birth_icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="friends-screen__birth_icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"
+              />
+            </svg>
+          </div>
         </div>
-        <div class="friends-screen__star">
-            <div>
-                <span  class="friends-screen__star-title">즐겨찾기</span>
-            </div>
-            <i class="f7-icons size-26 friends-screen__icon">chevron_up</i></li>
+      </div>
+      <div class="friends-screen__birth-find">
+        <div class="friends-screen__birth-find__left">
+          <img
+            src="data:image/jpeg;base64,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"
+            class="user-components__avator user-components__avator-sm"
+          />
+          <span class="friends-screen__birth-user__title"
+            >친구의 생일을 확인해보세요!</span
+          >
         </div>
-
-
+        <div class="friends-screen__birth-find__right">
+          <span class="friends-screen__birth-find__right-title">5</span>
+          <div class="chevron_icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="chevron_icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="friends-screen__update">
+        <div>
+          <span class="friends-screen__title">업데이트한 친구</span>
+          <span class="friends-screen__title friends-screen_title-num">19</span>
+        </div>
+        <div class="chevron_icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="chevron_icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="friends-screen__update-user">
+        <div class="friends-screen__update-user__profile">
+          <img
+            src="data:image/jpeg;base64,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"
+            class="user-components__avator user-components__avator-sm"
+          />
+          <div class="friends-screen__multy-user__text">윤승규</div>
+          <span class="friends-screen__update-user__profile__dot"></span>
+        </div>
+        <div class="friends-screen__update-user__profile">
+          <img
+            src="data:image/jpeg;base64,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"
+            class="user-components__avator user-components__avator-sm"
+          />
+          <div class="friends-screen__multy-user__text">윤승규</div>
+          <span class="friends-screen__update-user__profile__dot"></span>
+        </div>
+        <div class="friends-screen__update-user__profile">
+          <img
+            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0HDg0NBxINDg0PDQ4OEA0RDhsNDQ4NFREXFxURFRMYHCggGB0lHRUTITEhJSkrLi4uFx8zODMtNygtLjcBCgoKDg0OFQ8PFS0ZFRkrKy0tKy0rKzcrLSstKystNy0rLSstNy0rNzcrLTcrKy0rKy0rKysrKysrKysrKysrK//AABEIAOEA4QMBEQACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAAAQQFAwIG/8QAMhABAAECAwUHAwQCAwAAAAAAAAECAxETUgRRkZLRFCExMkFxgQUSoSJhscFigiMzQv/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EAB0RAQEBAQEBAQADAAAAAAAAAAABERICITEDE1H/2gAMAwEAAhEDEQA/APoMi3ot8kdH1+I8m0yLei3yR0OIbTIt6LfJHQ4h9Mi3ot8kdDiG0yLei3yR0OIbTIt6LfJHQ4h9Mi3ot8kdDiG0yLei3yR0OIbTIt6LfJHQ4h9Mi3ot8kdDiG0yLei3yR0OIbTIt6LfJHQ4htMi3ot8kdDiG0yLei3yR0OIbTIt6LfJHQ4htMi3ot8kdDiH0yLei3yR0OIbTIt6LfJHQ4htMi3ot8kdDiH0yLei3yR0OIbTIt6LfJHQ4htMi3ot8kdDiH0yLei3yR0OIbTIt6LfJHQ4htMi3ot8kdDiH0yLei3yR0OIbTIt6LfJHQ4htMi3ot8kdDiG0yLei3yR0OIfXRpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEmqgQAAAAAAAAAAAAAAAAAAAAAAAABX2jbKLPd5qt0enu1PFqap1fULk+X7Y+MW54TUU/ULkeP2z8YLfCat2NupuYRV+mf38OLnfFjWraKhAAAAAAAAAAAAAAAAAAAAAABU2/acqPto80+u6G/PlLWW7MoAAEaP0/aZn/juf6z/Tl68Y3KvuagAAAAAAAAAAAAAAAAAAAAAMO/XmV1VT6zPB6JMjDmoAAA9U1TRMTHjE4pfwbtFX3xE74iXnzG4kAAAAAAAAAAAAAAAAAAAACVn6Pn3ocwUAAAQbmzd1FGOmHC/rUdEUAAAAAAAAAAAAAAAAAAAABi7Zayq6o9JnGPaXfzfjFcWgAAB7s282qKY9Z/CX5CN2IwiIj07nn1sAAAAAAAAAAAAAAAAAAAAABw2vZ42iN1UeEtebiWMiuibc4VxhLtLrLyoAmKZqmIp75n0TcRrbFsuRGNfmn8RucfXrW5FllQAAAAAAAAAAAAAAAAAAAAAAHi7apuxhciJNs/BVq+nUz5ZmPy6T+Ss2FP02n/ANVTPxgf2UxZtWKLP/XGH7+M8WLbWsdEAAAAAAAAAAAAAAAAAAAAAAEgiZinxwj37gcatqt0+NUfHe1zTXidutR6zwOPSaRt1rfPA4pr3Ttdqrwqj57jmmutNUVeWYn272VSAAAAAAAAAAAAAAAAAAAADzduU2oxrnCP5WTTWdf+oVVd1r9Mb/GXSeP9ZtU6qpr76pmffvbyMoUBQ0ATTM0+Xu9u5MgtWdvro8/6o/PFm+Ia0bN+m9GNHzHrDlfONS66IoAAAAAAAAAAAAAAAADzcri3E1VeEEmjGv36r841fEekQ9HnzjFrkoAAAAAAA92rk2piqjxSzRtWL0X6Yqp+Y3S4WZW9e0AAAAAAAAAAAAAAAAGf9UueWiPef6dPEZrPdagAAAAAAAAC59NufZX9s+FX8ufufCNRybAAAAAAAAAAAAAAASKxduq+65V7xH4d/M+Odrg0gGgaBoGgaBoGgaA92avtqpn/ACj+U9fit5524gAAAAAAAAAAAAAAAFevYrdczNWOM/u11UxHYLW6eJ3TDsFrdPE7ph2C1unid0w7Ba3TxO6Ydgtbp4ndMOwWt08TumHYLW6eJ3TDsFrdPE7ph2C1unid0w7Ba3TxO6YRsNuPCJ4nVMWWYoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiCwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//Z"
+            class="user-components__avator user-components__avator-sm"
+          />
+          <div class="friends-screen__multy-user__text">윤승규</div>
+          <span class="friends-screen__update-user__profile__dot"></span>
+        </div>
+        <div class="friends-screen__update-user__profile">
+          <img
+            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0HDg0NBxINDg0PDQ4OEA0RDhsNDQ4NFREXFxURFRMYHCggGB0lHRUTITEhJSkrLi4uFx8zODMtNygtLjcBCgoKDg0OFQ8PFS0ZFRkrKy0tKy0rKzcrLSstKystNy0rLSstNy0rNzcrLTcrKy0rKy0rKysrKysrKysrKysrK//AABEIAOEA4QMBEQACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAAAQQFAwIG/8QAMhABAAECAwUHAwQCAwAAAAAAAAECAxETUgRRkZLRFCExMkFxgQUSoSJhscFigiMzQv/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EAB0RAQEBAQEBAQADAAAAAAAAAAABERICITEDE1H/2gAMAwEAAhEDEQA/APoMi3ot8kdH1+I8m0yLei3yR0OIbTIt6LfJHQ4h9Mi3ot8kdDiG0yLei3yR0OIbTIt6LfJHQ4h9Mi3ot8kdDiG0yLei3yR0OIbTIt6LfJHQ4h9Mi3ot8kdDiG0yLei3yR0OIbTIt6LfJHQ4htMi3ot8kdDiG0yLei3yR0OIbTIt6LfJHQ4htMi3ot8kdDiH0yLei3yR0OIbTIt6LfJHQ4htMi3ot8kdDiH0yLei3yR0OIbTIt6LfJHQ4htMi3ot8kdDiH0yLei3yR0OIbTIt6LfJHQ4htMi3ot8kdDiH0yLei3yR0OIbTIt6LfJHQ4htMi3ot8kdDiG0yLei3yR0OIfXRpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEmqgQAAAAAAAAAAAAAAAAAAAAAAAABX2jbKLPd5qt0enu1PFqap1fULk+X7Y+MW54TUU/ULkeP2z8YLfCat2NupuYRV+mf38OLnfFjWraKhAAAAAAAAAAAAAAAAAAAAAABU2/acqPto80+u6G/PlLWW7MoAAEaP0/aZn/juf6z/Tl68Y3KvuagAAAAAAAAAAAAAAAAAAAAAMO/XmV1VT6zPB6JMjDmoAAA9U1TRMTHjE4pfwbtFX3xE74iXnzG4kAAAAAAAAAAAAAAAAAAAACVn6Pn3ocwUAAAQbmzd1FGOmHC/rUdEUAAAAAAAAAAAAAAAAAAAABi7Zayq6o9JnGPaXfzfjFcWgAAB7s282qKY9Z/CX5CN2IwiIj07nn1sAAAAAAAAAAAAAAAAAAAAABw2vZ42iN1UeEtebiWMiuibc4VxhLtLrLyoAmKZqmIp75n0TcRrbFsuRGNfmn8RucfXrW5FllQAAAAAAAAAAAAAAAAAAAAAAHi7apuxhciJNs/BVq+nUz5ZmPy6T+Ss2FP02n/ANVTPxgf2UxZtWKLP/XGH7+M8WLbWsdEAAAAAAAAAAAAAAAAAAAAAAEgiZinxwj37gcatqt0+NUfHe1zTXidutR6zwOPSaRt1rfPA4pr3Ttdqrwqj57jmmutNUVeWYn272VSAAAAAAAAAAAAAAAAAAAADzduU2oxrnCP5WTTWdf+oVVd1r9Mb/GXSeP9ZtU6qpr76pmffvbyMoUBQ0ATTM0+Xu9u5MgtWdvro8/6o/PFm+Ia0bN+m9GNHzHrDlfONS66IoAAAAAAAAAAAAAAAADzcri3E1VeEEmjGv36r841fEekQ9HnzjFrkoAAAAAAA92rk2piqjxSzRtWL0X6Yqp+Y3S4WZW9e0AAAAAAAAAAAAAAAAGf9UueWiPef6dPEZrPdagAAAAAAAAC59NufZX9s+FX8ufufCNRybAAAAAAAAAAAAAAASKxduq+65V7xH4d/M+Odrg0gGgaBoGgaBoGgaA92avtqpn/ACj+U9fit5524gAAAAAAAAAAAAAAAFevYrdczNWOM/u11UxHYLW6eJ3TDsFrdPE7ph2C1unid0w7Ba3TxO6Ydgtbp4ndMOwWt08TumHYLW6eJ3TDsFrdPE7ph2C1unid0w7Ba3TxO6YRsNuPCJ4nVMWWYoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiBiCwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//Z"
+            class="user-components__avator user-components__avator-sm"
+          />
+          <div class="friends-screen__multy-user__text">윤승규</div>
+          <span class="friends-screen__update-user__profile__dot"></span>
+        </div>
+        <div class="friends-screen__update-user__profile">
+          <img
+            src="data:image/jpeg;base64,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"
+            class="user-components__avator user-components__avator-sm"
+          />
+          <div class="friends-screen__multy-user__text">윤승규</div>
+          <span class="friends-screen__update-user__profile__dot"></span>
+        </div>
+        <div class="friends-screen__update-user__profile">
+          <img
+            src="data:image/jpeg;base64,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"
+            class="user-components__avator user-components__avator-sm"
+          />
+          <div class="friends-screen__multy-user__text">윤승규</div>
+          <span class="friends-screen__update-user__profile__dot"></span>
+        </div>
+      </div>
     </main>
 
     <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__li"><a href="friends.html"><i class="f7-icons size-28">person_fill</i></a></li>
-            <li class="nav__li"><a href="#">
-                <span class="nav__notification">140</span>
-                <i class="f7-icons size-28">chat_bubble</i></a></li>
-            <li class="nav__li"><a href="#"><i class="f7-icons size-28">barcode</i></a></li>
-            <li class="nav__li"><a href="#"><i class="f7-icons size-28">bag</i></a></li>
-            <li class="nav__li"><a href="#"> <span class="nav__dot"></span><i class="f7-icons size-28">ellipsis</i></a></li>
-        </ul>
+      <ul class="nav__list">
+        <li class="nav__li">
+          <a href="friends.html">
+            <div class="nav_icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="nav_icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                />
+              </svg>
+            </div>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a href="chat.html">
+            <span class="nav__notification">140</span>
+
+            <div class="nav_icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="nav_icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z"
+                />
+              </svg>
+            </div>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a href="#">
+            <div class="nav_icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="nav_icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"
+                />
+              </svg>
+            </div>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a href="#">
+            <div class="nav_icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="nav_icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                />
+              </svg>
+            </div>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a href="#">
+            <span class="nav__dot"></span>
+            <div class="nav_icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="nav_icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                />
+              </svg>
+            </div>
+          </a>
+        </li>
+      </ul>
     </nav>
-</body>
+  </body>
 </html>

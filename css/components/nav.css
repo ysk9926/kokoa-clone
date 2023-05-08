@@ -1,45 +1,52 @@
-.nav{
-    background-color: rgba(0, 0, 0, 0.08);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    box-sizing: border-box;
-    
+.nav {
+  background-color: rgba(0, 0, 0, 0.08);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.nav__list{
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 20px;
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
 }
-.nav__li{
-    position: relative;
-}
-.nav__notification{
-    background-color: red;
-    font-size: 12px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 18px;
-    width: 27px;
-    border-radius: 10px;
-    position: absolute;
-    font-weight: 600;
-    left: 15px;
-    bottom: 17px;
+.nav__li {
+  position: relative;
 }
 
-.nav__dot{
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 6px;
-    width: 6px;
-    border-radius: 3px;
-    position: absolute;
-    left: 25px;
-   
+.nav__li:hover {
+  scale: 1.1;
+}
+
+.nav_icon {
+  width: 30px;
+}
+
+.nav__notification {
+  background-color: red;
+  font-size: 12px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18px;
+  width: 27px;
+  border-radius: 10px;
+  position: absolute;
+  font-weight: 600;
+  left: 15px;
+  bottom: 17px;
+}
+
+.nav__dot {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6px;
+  width: 6px;
+  border-radius: 3px;
+  position: absolute;
+  left: 25px;
 }
